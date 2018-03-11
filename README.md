@@ -1,5 +1,5 @@
 # semantic-segmentation
-Semantic Segmentation for self driving cars for 2 classes Road and not Roa
+Semantic Segmentation for self driving cars for 2 classes Road and not Road.
 
 ## Introduction
 A Fully Convolutional Network (FCN) is used to label the pixels of a road in images.
