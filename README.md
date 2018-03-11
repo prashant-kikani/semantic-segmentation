@@ -6,7 +6,11 @@ A Fully Convolutional Network (FCN) is used to label the pixels of a road in ima
 
 ## Dataset
 Download the [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php) from [here](http://www.cvlibs.net/download.php?file=data_road.zip).  <br/>
-Extract the dataset in the `data` folder.  This will create the folder `data_road` with all the training a test images.
+Extract the dataset in the `data` folder.  This will create the folder `data_road`. In that folder `testing` and `training` 2 folders are there. <br/>
+`training` folder have 3 subfolders `calib`, `gt_image_2` and `image_2`.<br/>
+`testing` folder have 2 subfolders `calib` and `image_2`.<br/>
+`calib` folder have txt files which contains calibrations pixel values to train and test.<br/>
+`gt_image_2` containes images to train and `image_2` contains original images. 
 
 ## Fully Convolutional Networks (FCN)
 An FCN was used in this project because it retains the spatial information during training. This can be really helpful when trying to identify where an object is in an image. The architecture used in this project is divided into three main parts as shown in the architecture below:
